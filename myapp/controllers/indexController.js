@@ -2,7 +2,7 @@
 
 const indexController = {
     index: function (req, res) {
-        return res.render ("index", /* variable de db */)
+        return res.render ("index" /* variable de db */)
     }
 }
 
