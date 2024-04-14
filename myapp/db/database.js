@@ -2,6 +2,7 @@ const data = {
     usuario: {
         nombre: "Nombre de usuario",
         email: "usuario@example.com",
+        pass: "123456"
     },
     productos: [
         {
@@ -62,7 +63,7 @@ const data = {
         },
         {
             nombre: "Moto G54 Dual SIM 256 GB",
-            descripcion: "Con su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.            ",
+            descripcion: "Con su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.",
             // Otros datos del producto 1
             
             comentarios: [
