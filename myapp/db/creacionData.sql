@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     foto TEXT,
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    deletedAt TIMESTAMP NULL
+    deletedAt TIMESTAMP TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP
 );
 
 -- Insert de data test a usuarios
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS productos (
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
 );
 
--- Inserción de registros de ejemplo en la tabla de productos
+-- Insert de registros de ejemplo en la tabla de productos
 INSERT INTO productos (nombre, descripcion, nombre_archivo_imagen, id_usuario) VALUES
 ('Samsung Galaxy S23 Fe', 'Fotografía profesional en tu bolsillo. Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.', 'imagen1.jpg', 1),
 ('Samsung Galaxy Z Flip5', 'Descubrí la pantalla plegable: al plegarse, adopta un tamaño pequeño y compacto que te resultará muy cómodo para transportar. Cuando quieras disfrutar de tus contenidos favoritos se transforma desplegando su pantalla', 'imagen1.jpg', 2),
@@ -51,7 +51,7 @@ INSERT INTO productos (nombre, descripcion, nombre_archivo_imagen, id_usuario) V
 ('Apple iPhone 15 (128 GB)', 'El iPhone 15 viene con la Dynamic Island, cámara gran angular de 48 MP, entrada USB-C y un resistente vidrio con infusión de color en un diseño de aluminio.', 'imagen1.jpg', 7),
 ('Apple iPhone 11 (128 GB)', 'Graba videos 4K y captura retratos espectaculares y paisajes increíbles con el sistema de dos cámaras. Toma grandes fotos con poca luz gracias al modo Noche.', 'imagen1.jpg', 8),
 ('Apple iPhone 14 (128 GB)', 'El iPhone 14 viene con el sistema de dos cámaras más impresionante en un Iphone 14, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.', 'imagen1.jpg', 9),
-('Samsung Galaxy A32 128', 'Son equipos que funcionan como nuevos y traen garantía por 3 meses. Pueden tener algún detalle estético y detalles muy pequeños en la pantalla que no afectan el funcionamiento.', 'imagen1.jpg', 10),;
+('Samsung Galaxy A32 128', 'Son equipos que funcionan como nuevos y traen garantía por 3 meses. Pueden tener algún detalle estético y detalles muy pequeños en la pantalla que no afectan el funcionamiento.', 'imagen1.jpg', 10);
 
 -- Tabla de comentarios
 CREATE TABLE IF NOT EXISTS comentarios (
@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS comentarios (
     FOREIGN KEY (id_producto) REFERENCES productos(id)
 );
 
--- Inserción de registros de ejemplo en la tabla de comentarios
+-- Insert de registros de ejemplo en la tabla de comentarios
 INSERT INTO comentarios (id_producto, id_usuario, texto) VALUES
 (1, 1, 'Comentario 1 del producto 1'),
 (1, 2, 'Comentario 2 del producto 1'),
