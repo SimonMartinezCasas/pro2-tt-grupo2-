@@ -1,11 +1,11 @@
-/* const require ("base de datos") */
+const user = require ("../db/database")
 
 const usersController = {
     login: function (req, res) {
         return res.render ("login" /* variable de db */)
     },
     profile: function (req, res) {
-        return res.render ("profile" /* variable de db */)
+        return res.render ("profile", {data: user.usuario})
     },
     profileEdit: function (req, res) {
         return res.render ("profileEdit" /* variable de db */)
