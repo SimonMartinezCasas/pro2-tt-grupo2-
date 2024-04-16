@@ -20,7 +20,7 @@ const data = {
                     texto: "Comentario del producto 1",
                     imagenPerfil: "/public/images/users/defaultImage.png"
                 },
-                // Otros comentarios del producto 1
+                // Otros comentarios del producto 1 ..
             ]
         },
         {
