@@ -21,11 +21,11 @@ CREATE TABLE IF NOT EXISTS usuarios (
 
 -- Insert de data test a usuarios
 INSERT INTO usuarios (nombre, email, contrasenia) VALUES
-('usuario1', 'usuario1@test.com', 'contraseña1'),
-('Usuario2', 'usuario2@test.com', 'contraseña2'),
-('usuario3', 'usuario3@test.com', 'contraseña3'),
-('Usuario4', 'usuario4@test.com', 'contraseña4'),
-('usuario5', 'usuario5@test.com', 'contraseña5');
+('pepegomez', 'pepegomez@gmail.com', 'vacablanca'),
+('lopez_nacho', 'nacholopez10@gmail.com', 'pajarorojo'),
+('nicorodriguez8', 'nicorodriguez8@gmail.com', '12354'),
+('luis_navas', 'luisnavas@gmail.com', 'recital450'),
+('briangomez', 'briangomez@gmail.com', 'hombrearania');
 
 -- Tabla de productos
 CREATE TABLE IF NOT EXISTS productos (
@@ -42,16 +42,16 @@ CREATE TABLE IF NOT EXISTS productos (
 
 -- Insert de registros de ejemplo en la tabla de productos
 INSERT INTO productos (nombre, descripcion, nombre_archivo_imagen, id_usuario) VALUES
-('Samsung Galaxy S23 Fe', 'Fotografía profesional en tu bolsillo. Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.', 'imagen1.jpg', 1),
-('Samsung Galaxy Z Flip5', 'Descubrí la pantalla plegable: al plegarse, adopta un tamaño pequeño y compacto que te resultará muy cómodo para transportar. Cuando quieras disfrutar de tus contenidos favoritos se transforma desplegando su pantalla', 'imagen1.jpg', 2),
-('Samsung Galaxy A04s 4', 'Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.', 'imagen1.jpg', 3),
-('Motorola Edge 40(eSIM)', 'Doble cámara y más detalles. Sus 2 cámaras traseras de 50 Mpx/13 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.', 'imagen1.jpg', 4),
-('Moto G54 Dual SIM 256 GB', 'Con su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.', 'imagen1.jpg', 5),
-('Motorola Moto E22', 'Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.', 'imagen1.jpg', 6),
-('Apple iPhone 15 (128 GB)', 'El iPhone 15 viene con la Dynamic Island, cámara gran angular de 48 MP, entrada USB-C y un resistente vidrio con infusión de color en un diseño de aluminio.', 'imagen1.jpg', 7),
-('Apple iPhone 11 (128 GB)', 'Graba videos 4K y captura retratos espectaculares y paisajes increíbles con el sistema de dos cámaras. Toma grandes fotos con poca luz gracias al modo Noche.', 'imagen1.jpg', 8),
-('Apple iPhone 14 (128 GB)', 'El iPhone 14 viene con el sistema de dos cámaras más impresionante en un Iphone 14, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.', 'imagen1.jpg', 9),
-('Samsung Galaxy A32 128', 'Son equipos que funcionan como nuevos y traen garantía por 3 meses. Pueden tener algún detalle estético y detalles muy pequeños en la pantalla que no afectan el funcionamiento.', 'imagen1.jpg', 10);
+('Absolut Raspberry', 'Vibrante expresión de vodka infundido con el dulce y ácido sabor de las frambuesas maduras. Su aroma fresco y afrutado anticipa una experiencia gustativa suave y equilibrada, perfecta para cócteles refrescantes o disfrutarlo solo.', 'absolutRasperri.jpg', 1),
+('Grey Goose', 'vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.', 'gresGoose.png', 1),
+('Smirnoff', 'Es reconocido por su calidad y versatilidad. Destilado tres veces y filtrado diez, ofrece una pureza excepcional y un sabor suave', 'smirnoffNaranja.png', 1),
+('Jagger', 'Icónica bebida espirituosa alemana, cautiva con su distintivo sabor a base de hierbas y especias', 'jagger.png', 1),
+('Fernet', 'Emblemática bebida italiana, seduce con su inigualable amargor equilibrado por notas herbales y especiadas', 'fernet.jpg', 1),
+('Black Label', 'Whisky escocés por excelencia de Johnnie Walker, encarna la artesanía y la tradición centenaria.', 'blackLabel.png', 1),
+('Campari', 'Aperitivo italiano icónico, cautiva con su distintivo sabor amargo y refrescante.', 'campari.jpg', 1),
+('Bacardi', 'Ron legendario de Cuba, destaca por su suavidad y versatilidad. Elaborado con la mezcla perfecta de melaza y agua pura, ofrece un sabor equilibrado con notas sutiles de vainilla y especias.', 'bacardi.png', 1),
+('Tanqueray Gin Tonic', 'Emblema del gin premium, deslumbra con su equilibrio entre sabores botánicos y cítricos.', 'gin.png', 1),
+('Cosecha Tardía Vino Blanco', 'Elixir de dulzura y refinamiento, se distingue por su proceso de cosecha tardía, que concentra los azúcares naturales de las uvas.', 'vinito.webp', 1);
 
 -- Tabla de comentarios
 CREATE TABLE IF NOT EXISTS comentarios (
@@ -68,33 +68,33 @@ CREATE TABLE IF NOT EXISTS comentarios (
 
 -- Insert de registros de ejemplo en la tabla de comentarios
 INSERT INTO comentarios (id_producto, id_usuario, texto) VALUES
-(1, 1, 'Comentario 1 del producto 1'),
-(1, 2, 'Comentario 2 del producto 1'),
-(1, 3, 'Comentario 3 del producto 1'),
-(2, 1, 'Comentario 1 del producto 2'),
-(2, 2, 'Comentario 2 del producto 2'),
-(2, 3, 'Comentario 3 del producto 2'),
-(3, 1, 'Comentario 1 del producto 3'),
-(3, 2, 'Comentario 2 del producto 3'),
-(3, 3, 'Comentario 3 del producto 3'),
-(4, 1, 'Comentario 1 del producto 4'),
-(4, 2, 'Comentario 2 del producto 4'),
-(4, 3, 'Comentario 3 del producto 4'),
-(5, 1, 'Comentario 1 del producto 5'),
-(5, 2, 'Comentario 2 del producto 5'),
-(5, 3, 'Comentario 3 del producto 5'),
-(6, 1, 'Comentario 1 del producto 6'),
-(6, 2, 'Comentario 2 del producto 6'),
-(6, 3, 'Comentario 3 del producto 6'),
-(7, 1, 'Comentario 1 del producto 7'),
-(7, 2, 'Comentario 2 del producto 7'),
-(7, 3, 'Comentario 3 del producto 7'),
-(8, 1, 'Comentario 1 del producto 8'),
-(8, 2, 'Comentario 2 del producto 8'),
-(8, 3, 'Comentario 3 del producto 8'),
-(9, 1, 'Comentario 1 del producto 9'),
-(9, 2, 'Comentario 2 del producto 9'),
-(9, 3, 'Comentario 3 del producto 9'),
-(10, 1, 'Comentario 1 del producto 10'),
-(10, 2, 'Comentario 2 del producto 10'),
-(10, 3, 'Comentario 3 del producto 10');
+(1, 1, 'Llego  rapidisimo!'),
+(1, 2, 'Una calidad inigualable'),
+(1, 3, 'La mejor bebida del mundo!'),
+(2, 1, 'No me gustó'),
+(2, 2, 'Esperaba otra cosa'),
+(2, 3, 'Llegó rápido'),
+(3, 1, 'Buena relacion calidad precio'),
+(3, 2, 'Esperaba más....'),
+(3, 3, 'Que buena bebida!!'),
+(4, 1, 'Me encantó'),
+(4, 2, 'Espectacular!'),
+(4, 3, 'Tardó mucho en llegar'),
+(5, 1, 'Horrible'),
+(5, 2, 'La mejor bebida que probé en mi vida!!!!'),
+(5, 3, 'Podrían poner envío gratis!'),
+(6, 1, 'Venden por mayor?'),
+(6, 2, 'Tienen más variedad?'),
+(6, 3, 'Una calidad única'),
+(7, 1, 'I loved it!'),
+(7, 2, 'Llegó la botella rota y no se quisieron hacer cargo...'),
+(7, 3, 'Una muy buena atención por parte del vendedor'),
+(8, 1, 'Totalmente asqueroso'),
+(8, 2, 'Me encantó!'),
+(8, 3, 'Quiero comprar pero no hay stock!'),
+(9, 1, '100% recomendado'),
+(9, 2, 'Esperaba mas....'),
+(9, 3, 'Podrían responder más rápido'),
+(10, 1, 'Excelente el producto y el servicio'),
+(10, 2, 'Hacen envíos al interior?'),
+(10, 3, 'Venden la caja de seis o solo por unidad?');
