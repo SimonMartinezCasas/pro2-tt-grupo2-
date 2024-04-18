@@ -187,7 +187,6 @@ hr {
 
 .productBoxImage {
   border-bottom: 1px solid var(--light-gray);
-  
 }
 
 .productBoxData {
@@ -256,6 +255,10 @@ hr {
 .productBox:hover i {
   transform: rotate(360deg);
   box-shadow: 0 0 5px var(--green);
+}
+
+.gresGoose {
+  height: 25% ;
 }
 
 /*====== Footer ======*/

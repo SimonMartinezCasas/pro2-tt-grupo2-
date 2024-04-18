@@ -9,150 +9,150 @@ const data = {
     },
     productos: [
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Samsung Galaxy S23 Fe",
-            descripcion: "Fotografía profesional en tu bolsillo. Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
+            imagenDelProducto: "/images/products/absolutRasperri.jpg",
+            nombreDelProducto: " Absolut Raspberry ",
+            descripcion: "Vibrante expresión de vodka infundido con el dulce y ácido sabor de las frambuesas maduras. Su aroma fresco y afrutado anticipa una experiencia gustativa suave y equilibrada, perfecta para cócteles refrescantes o disfrutarlo solo.",
             // Otros datos del producto 1
 
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Benjamín Rodriguez",
+                    texto: "Llego  rapidisimo!",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1 ..
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Samsung Galaxy Z Flip5",
-            descripcion: "Descubrí la pantalla plegable: al plegarse, adopta un tamaño pequeño y compacto que te resultará muy cómodo para transportar. Cuando quieras disfrutar de tus contenidos favoritos se transforma desplegando su pantalla",
+            imagenDelProducto: "/images/products/gresGoose.png",
+            nombreDelProducto: "Grey Goose",
+            descripcion: "vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.",
             // Otros datos del producto 2
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Clara Ocampo",
+                    texto: "No me gustó",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Samsung Galaxy A04s 4",
-            descripcion: "Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
+            imagenDelProducto: "/images/products/smirnoffNaranja.png",
+            nombreDelProducto: "Smirnoff ",
+            descripcion: "Es reconocido por su calidad y versatilidad. Destilado tres veces y filtrado diez, ofrece una pureza excepcional y un sabor suave",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Macarena Alvarez",
+                    texto: "Buena relacion calidad precio",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Motorola Edge 40(eSIM)",
-            descripcion: "Doble cámara y más detalles. Sus 2 cámaras traseras de 50 Mpx/13 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.",
+            imagenDelProducto: "/images/products/jagger.png",
+            nombreDelProducto: "Jagger",
+            descripcion: "Icónica bebida espirituosa alemana, cautiva con su distintivo sabor a base de hierbas y especias",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Esteban Quito",
+                    texto: "Me encantó",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Moto G54 Dual SIM 256 GB",
-            descripcion: "Con su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.",
+            imagenDelProducto: "/images/products/fernet.jpg",
+            nombreDelProducto: "Fernet",
+            descripcion: "Emblemática bebida italiana, seduce con su inigualable amargor equilibrado por notas herbales y especiadas",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Maria Eugenia",
+                    texto: "Horrible",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Motorola Moto E22",
-            descripcion: "Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.",
+            imagenDelProducto: "/images/products/blackLabel.png",
+            nombreDelProducto: "Black Label",
+            descripcion: "Whisky escocés por excelencia de Johnnie Walker, encarna la artesanía y la tradición centenaria. ",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Ignacio Chavez",
+                    texto: "Venden por mayor?",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Apple iPhone 15 (128 GB)",
-            descripcion: "El iPhone 15 viene con la Dynamic Island, cámara gran angular de 48 MP, entrada USB-C y un resistente vidrio con infusión de color en un diseño de aluminio.",
+            imagenDelProducto: "/images/products/campari.jpg",
+            nombreDelProducto: "Campari",
+            descripcion: "Aperitivo italiano icónico, cautiva con su distintivo sabor amargo y refrescante. ",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Ashton Ryan",
+                    texto: "I loved it!",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Apple iPhone 11 (128 GB)",
-            descripcion: "Graba videos 4K y captura retratos espectaculares y paisajes increíbles con el sistema de dos cámaras. Toma grandes fotos con poca luz gracias al modo Noche.",
+            imagenDelProducto: "/images/products/bacardi.png",
+            nombreDelProducto: "Bacardi",
+            descripcion: "Ron legendario de Cuba, destaca por su suavidad y versatilidad. Elaborado con la mezcla perfecta de melaza y agua pura, ofrece un sabor equilibrado con notas sutiles de vainilla y especias. ",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Thomas Green",
+                    texto: "Totalmente asqueroso",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Apple iPhone 14 (128 GB)",
-            descripcion: "El iPhone 14 viene con el sistema de dos cámaras más impresionante en un Iphone 14, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.",
+            imagenDelProducto: "/images/products/gin.png",
+            nombreDelProducto: "Tanqueray Gin Tonic",
+            descripcion: "Emblema del gin premium, deslumbra con su equilibrio entre sabores botánicos y cítricos.",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Rosario Guadalupe Carone",
+                    texto: "100% recomendado",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
             ]
         },
         {
-            imagenDelProducto: "/images/products/defaultImage.png",
-            nombreDelProducto: "Samsung Galaxy A32 128",
-            descripcion: "Son equipos que funcionan como nuevos y traen garantía por 3 meses. Pueden tener algún detalle estético y detalles muy pequeños en la pantalla que no afectan el funcionamiento.",
+            imagenDelProducto: "/images/products/vinito.webp",
+            nombreDelProducto: "Cosecha Tardia Vino Blanco",
+            descripcion: "Elixir de dulzura y refinamiento, se distingue por su proceso de cosecha tardía, que concentra los azúcares naturales de las uvas.",
             // Otros datos del producto 1
             
             comentarios: [
                 {
-                    nombreUsuario: "Usuario1",
-                    texto: "Comentario del producto 1",
+                    nombreUsuario: "Abel Garcia Pintos",
+                    texto: "Excelente el producto y el servicio",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
                 // Otros comentarios del producto 1
