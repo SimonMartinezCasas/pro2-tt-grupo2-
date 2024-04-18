@@ -5,7 +5,7 @@ const usersController = {
         return res.render ("login" /* variable de db */)
     },
     profile: function (req, res) {
-        return res.render ("profile", {data: user.usuario})
+        return res.render ("profile", {usuario: user.usuario, producto: user.productos})
     },
     profileEdit: function (req, res) {
         return res.render ("profileEdit" /* variable de db */)

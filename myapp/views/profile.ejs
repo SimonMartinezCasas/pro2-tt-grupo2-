@@ -23,11 +23,11 @@
 	<section class="infoUsuario container productsWrapper">
 		<div class="row">
 			<div class="img-container offset-3 col-2">
-				<img src= "<%=data.imagenPerfil%>" alt="foto de perfil" class="fotoPerfil"> <!-- quedo sin cambiar-->
+				<img src= "<%=usuario.imagenPerfil%>" alt="foto de perfil" class="fotoPerfil"> <!-- quedo sin cambiar-->
 			</div>
 			<div class="data-container col-6">
 				<div class="d-flex align-items-center ">
-					<h1 class="mainTitle"> <%= data.nombre %>
+					<h1 class="mainTitle"> <%= usuario.nombre %>
 						<a href="/users/profile/edit">
 							<i class="fas fa-cog"></i>
 						</a>
@@ -38,13 +38,13 @@
 					<a href="/users/profile/edit"> <button type="submit"> Editar perfil</button> </a>
 			</div>
 			<div>
-				<i><%= data.email %></i>
+				<i><%= usuario.email %></i>
 			</div>
 				<div>
 					<ul class="">
-						<li>8 productos</li>
+						<li> <%= producto.length %> productos</li>
 						<li>200 seguidores</li>
-						<li>300 comentarios</li>
+						<li><300 comentarios></li>
 					</ul>
 				</div>
 			</div>
@@ -60,123 +60,21 @@
 			</div>
 			<!-- Show mis productos -->
 			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-								delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-								delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-								delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-								delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-								delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-								delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/defaultImage.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Descripción corta del producto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-								delectus ex</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
+				<% for (let i = 0; i < producto.length; i++) { %>
+					<section class="productBox">
+						<a href="/products">
+							<figure class="productBoxImage">
+								<img src="<%= producto[i].imagenDelProducto %>" alt="cafetera moulinex">
+							</figure>
+							<article class="productBoxData">
+								<h2><%= producto[i].nombreDelProducto %></h2>
+								<p> <%= producto[i].descripcion %></p>
+								<p>Comentarios: <%= producto[i].comentarios.lenght %></p>
+							</article>
+						</a>
+					</section>
+					
+				<%} %>
 			</div>
 		</div>
 	</div>

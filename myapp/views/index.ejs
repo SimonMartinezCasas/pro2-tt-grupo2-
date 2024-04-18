@@ -17,61 +17,21 @@
 			</div>
 			<!-- Show the "ultimos" products.. -->
 			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/absolutRasperri.jpg" alt="absolut Raspberry">
-						</figure>
-						<article class="productBoxData">
-							<h2>Absolut Raspberry</h2>
-							<p>Vibrante expresión de vodka infundido con el dulce y ácido sabor de las frambuesas maduras. Su aroma fresco y afrutado anticipa una experiencia gustativa suave y equilibrada, perfecta para cócteles refrescantes o disfrutarlo solo</p>
-							<p>Comentarios: 12</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img class="gresGoose" src="/images/products/gresGoose.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Grey Goose</h2>
-							<p>Vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.</p>
-							<p>Comentarios: 20</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/smirnoffNaranja.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Smirnoff</h2>
-							<p>Es reconocido por su calidad y versatilidad. Destilado tres veces y filtrado diez, ofrece una pureza excepcional y un sabor suave</p>
-							<p>Comentarios: 2</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/sky.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>SKY</h2>
-							<p>Ofrece un sabor puro y cristalino. Perfecto para cócteles sofisticados</p>
-							<p>Comentarios: 08</p>
-						</article>
-					</a>
-				</section>
-			</div>
+				<% for (let i = 0; i < 5; i++) { %>
+					<section class="productBox">
+						<a href="/products">
+							<figure class="productBoxImage">
+								<img src=" <%=data[i].imagenDelProducto%>" alt="absolut Raspberry">
+							</figure>
+							<article class="productBoxData">
+								<h2><%= data[i].nombreDelProducto %></h2>
+								<p><%= data[i].descripcion %></p>
+								<p>Comentarios: <%= data[i].comentarios.length %></p>
+							</article>
+						</a>
+					</section>
+
+				<%} %>
 		</div>
 	</div>
 	<!-- /Novedades -->
@@ -83,60 +43,20 @@
 			</div>
 			<!-- Show the "ultimos" products -->
 			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img  src="/images/products/jagger.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Jagger</h2>
-							<p>Icónica bebida espirituosa alemana, cautiva con su distintivo sabor a base de hierbas y especias.</p>
-							<p>Comentarios: 112</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/fernet.jpg" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Nombre del producto</h2>
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque delectus ex</p>
-							<p>Comentarios: 312</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/blackLabel.png" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Black Label</h2>
-							<p>Whisky escocés por excelencia de Johnnie Walker, encarna la artesanía y la tradición centenaria. </p>
-							<p>Comentarios: 143</p>
-						</article>
-					</a>
-				</section>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<section class="productBox">
-					<a href="product.ejs">
-						<figure class="productBoxImage">
-							<img src="/images/products/campari.jpg" alt="cafetera moulinex">
-						</figure>
-						<article class="productBoxData">
-							<h2>Campari</h2>
-							<p>Aperitivo italiano icónico, cautiva con su distintivo sabor amargo y refrescante. </p>
-							<p>Comentarios: 67</p>
-						</article>
-					</a>
-				</section>
+				<% for (let i = 5; i < data.length; i++) {  %>
+					<section class="productBox">
+						<a href="/products">
+							<figure class="productBoxImage">
+								<img  src="<%=data[i].imagenDelProducto %>" alt="cafetera moulinex">
+							</figure>
+							<article class="productBoxData">
+								<h2><%= data[i].nombreDelProducto%></h2>
+								<p><%=data[i].descripcion %></p>
+								<p>Comentarios: <%= data[i].comentarios.length %></p>
+							</article>
+						</a>
+					</section>
+				<% } %>
 			</div>
 		</div>
 	</div>

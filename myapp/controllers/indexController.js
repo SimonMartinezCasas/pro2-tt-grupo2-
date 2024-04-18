@@ -1,8 +1,8 @@
-/* const require ("base de datos") */
+const db = require ("../db/database")
 
 const indexController = {
     index: function (req, res) {
-        return res.render ("index" /* variable de db */)
+        return res.render ("index", {data: db.productos})
     }
 }
 
