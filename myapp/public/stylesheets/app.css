@@ -68,7 +68,7 @@ hr {
 
 /*====== Main Header ======*/
 .mainHeader {
-  padding: 15px 0;
+  padding: 10px 0;
   background-color: var(--blue);
 }
 
@@ -111,12 +111,13 @@ hr {
 }
 
 .container {
-  margin-left: 25px;
+  margin-left: ;
 }
 
 .col-7 {
-  margin-top: 100px;
+  margin-top: 55px;
 }
+
 /*====== Main Navbar ======*/
 .btnToggleNavbar {
   background-color: var(--dark-blue);
@@ -144,8 +145,9 @@ hr {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  margin-left: 0%;
 }
+
 .logout{
   background: transparent;
   border: 0px;
@@ -153,6 +155,9 @@ hr {
   font-size: 1em;
 }
 
+.alinear {
+  border: 0px;
+}
 .logout:hover{
   color: #1259c3;
 }
@@ -163,8 +168,13 @@ hr {
   padding: 5px 0;
   border-bottom: solid 1px var(--balck);
 }
+.logo {
+  width: 80%;
+}
 
-
+.logoFoot {
+  width: 5%;
+}
 
 /*====== Banner ======*/
 .banner {
@@ -183,6 +193,7 @@ hr {
   font-size: 2.4em;
   font-weight: 400;
   color: var(--black);
+  font-family: "Oswald", sans-serif;
 }
 
 .productBox {
@@ -277,7 +288,7 @@ hr {
 /*====== Footer ======*/
 .mainFooter {
   background-color: #ebebeb;
-  padding: 20px 0;
+  padding: 0px;
   margin-top: 80px;
 }
 
@@ -492,9 +503,17 @@ textarea.formInput {
   padding: 10px 20px;
   border-radius: 4px;
   color: #fff;
+  margin: 10px;
 }
 
+.registrarse {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
+.perfiles {
+  margin: 2;
+}
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {
   .mainHeaderCreditLink {
@@ -503,7 +522,7 @@ textarea.formInput {
   }
 
   .banner {
-    height: 320px;
+    height: 275px;
   }
 
   .btnToggleNavbar {
