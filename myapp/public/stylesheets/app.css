@@ -110,7 +110,13 @@ hr {
   cursor: pointer;
 }
 
+.container {
+  margin-left: 25px;
+}
 
+.col-7 {
+  margin-top: 100px;
+}
 /*====== Main Navbar ======*/
 .btnToggleNavbar {
   background-color: var(--dark-blue);
@@ -133,6 +139,13 @@ hr {
   font-size: 1.5em;
 }
 
+.rightNavbar {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 .logout{
   background: transparent;
   border: 0px;
@@ -498,8 +511,7 @@ textarea.formInput {
   }
 
   .mainNavbar,
-  .leftNavbar,
-  .rightNavbar {
+  .leftNavbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;

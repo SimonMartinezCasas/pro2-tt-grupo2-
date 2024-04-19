@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link width="" rel="shortcut icon" href="./images/logo-mercado-liebre.jpg" />
+
+	<title> Borrachet</title>
+	<!-- Font Awesome Stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<!-- Bootstrap Grid Stylesheet -->
+	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+	<!-- Own Stylesheet -->
+	<link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
 	<%- include("./partials/headerLogueado.ejs") %>
 
 	<!-- Novedades -->
@@ -11,30 +25,26 @@
 			<!-- Show the "ultimos" products -->
 			<h2 class="col-12"> Agregar producto </h2>
 			<form action="/users/profile" method="GET">
-			<div>
-				<label for="imagenName">Imagen del producto</label>
-				<input id="imagenName" type="file" name="imagenName" value="" required> </input>
-			</div>
-			<div>
-				<label for="productName">Nombre del producto</label>
-				<input id="productName" type="text" name="productName" value="" required> </input>
-			</div>
-			<div>
-				<label for="descriptionProduct">Descripción del producto</label>
-				<input id="descriptionProduct" type="text" name="descriptionProduct" value="" required> </input>
-			</div>
-			<div>
-				<button type="submit">Enviar </button>
-			</div>
-
-			
-			
+				<div>
+					<label for="imagenName">Imagen del producto</label>
+					<input id="imagenName" type="file" name="imagenName" value="" required> </input>
+				</div>
+				<div>
+					<label for="productName">Nombre del producto</label>
+					<input id="productName" type="text" name="productName" value="" required> </input>
+				</div>
+				<div>
+					<label for="descriptionProduct">Descripción del producto</label>
+					<input id="descriptionProduct" type="text" name="descriptionProduct" value="" required> </input>
+				</div>
+				<div>
+					<button type="submit">Enviar </button>
+				</div>
 			</form>
+		</div>
+	</div>
 
-
-	<!-- footer -->
 	<%- include("./partials/footerLogueado") %>
-	<!-- /footer -->
-</body>
 
+</body>
 </html>

@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
-<!-- Include Head -->
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link width="" rel="shortcut icon" href="/images/logoMercadoLiebre.jpg" />
-	
-	
-	<title> Mercado Liebre Argentina</title>
-			<!-- Font Awesome Stylesheet ..-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> <!-- quedo sin cambiar-->
+	<link width="" rel="shortcut icon" href="./images/logo-mercado-liebre.jpg" />
+
+	<title> Borrachet</title>
+	<!-- Font Awesome Stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 	<!-- Bootstrap Grid Stylesheet -->
-	<link rel="stylesheet" href="/stylesheets/bootstrapGrid.min.css">
+	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
 	<!-- Own Stylesheet -->
-	<link rel="stylesheet" href="/stylesheets/app.css">
+	<link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-	<!-- Header -->
+	
 	<%- include("./partials/headerLogueado.ejs") %>
-	<!-- /Header -->
-	<!-- Datos del usuario -->
+	
 	<section class="infoUsuario container productsWrapper">
 		<div class="row">
 			<div class="img-container offset-3 col-2">
-				<img src= "<%=usuario.imagenPerfil%>" alt="foto de perfil" class="fotoPerfil"> <!-- quedo sin cambiar-->
+				<img src= "<%=usuario.imagenPerfil%>" alt="foto de perfil" class="fotoPerfil"> 
 			</div>
 			<div class="data-container col-6">
-				<div class="d-flex align-items-center ">
+				<div class="d-flex alignItemsCenter ">
 					<h1 class="mainTitle"> <%= usuario.nombre %>
 						<a href="/users/profile/edit">
 							<i class="fas fa-cog"></i>
@@ -80,9 +77,7 @@
 	</div>
 	<!-- /Mis productos -->
 
-
-	<!-- footer -->
 	<%- include("./partials/footerLogueado") %>
-	<!-- /footer ..-->
+
 </body>	
 </html>

@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link width="" rel="shortcut icon" href="./images/logo-mercado-liebre.jpg" />
 
-<%- include("./partials/header.ejs") %>
+	<title> Borrachet</title>
+	<!-- Font Awesome Stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<!-- Bootstrap Grid Stylesheet -->
+	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+	<!-- Own Stylesheet -->
+	<link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+
+	<%- include("./partials/header.ejs") %>
 	<!-- product detail -->
 	<div class="container productsWrapper">
-		<div class="d-flex align-items-center">
+		<div class="d-flex alignItemsCenter">
 			<h2 class="productsTitle">Nombre del producto</h2> 
 			<p class="productDetailDescription">
 				<a href="/products/add">Editar</a>
@@ -76,9 +90,7 @@
 	</div>
 	<!-- /product detail -->
 
-	<!-- footer -->
 	<%- include("./partials/footerLogueado") %>
-	<!-- /footer -->
 
 </body>	
 </html>
