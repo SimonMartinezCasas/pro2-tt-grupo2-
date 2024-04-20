@@ -176,6 +176,26 @@ hr {
   width: 5%;
 }
 
+
+.botonesNaranja {
+  color: #ca7310;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+p, i, li, a, .tipo, label {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  color: #000000;
+  font-weight: bold;
+}
+.titulosHeader {
+  font-weight: bold;
+}
 /*====== Banner ======*/
 .banner {
   background-repeat: no-repeat;
@@ -281,9 +301,6 @@ hr {
   box-shadow: 0 0 5px var(--green);
 }
 
-.gresGoose {
-  height: 25% ;
-}
 
 /*====== Footer ======*/
 .mainFooter {

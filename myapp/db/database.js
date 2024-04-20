@@ -16,7 +16,7 @@ const data = {
 
             comentarios: [
                 {
-                    nombreUsuario: "Benjamín Rodriguez",
+                    nombreUsuario: "pepegomez",
                     texto: "Llego  rapidisimo!",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -26,12 +26,12 @@ const data = {
         {
             imagenDelProducto: "/images/products/gresGoose.png",
             nombreDelProducto: "Grey Goose",
-            descripcion: "vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.",
+            descripcion: "Vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.",
             // Otros datos del producto 2
             
             comentarios: [
                 {
-                    nombreUsuario: "Clara Ocampo",
+                    nombreUsuario: "lopez_nacho",
                     texto: "No me gustó",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -46,7 +46,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Macarena Alvarez",
+                    nombreUsuario: "nicorodriguez8",
                     texto: "Buena relacion calidad precio",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -61,7 +61,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Esteban Quito",
+                    nombreUsuario: "briangomez",
                     texto: "Me encantó",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -76,7 +76,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Maria Eugenia",
+                    nombreUsuario: "luis_navas",
                     texto: "Horrible",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -91,7 +91,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Ignacio Chavez",
+                    nombreUsuario: "briangomez",
                     texto: "Venden por mayor?",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -106,7 +106,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Ashton Ryan",
+                    nombreUsuario: "nicorodriguez8",
                     texto: "I loved it!",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -121,7 +121,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Thomas Green",
+                    nombreUsuario: "lopez_nacho",
                     texto: "Totalmente asqueroso",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -136,7 +136,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Rosario Guadalupe Carone",
+                    nombreUsuario: "pepegomez",
                     texto: "100% recomendado",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },
@@ -151,7 +151,7 @@ const data = {
             
             comentarios: [
                 {
-                    nombreUsuario: "Abel Garcia Pintos",
+                    nombreUsuario: "luis_navas",
                     texto: "Excelente el producto y el servicio",
                     imagenPerfil: "/images/users/defaultImage.png"
                 },

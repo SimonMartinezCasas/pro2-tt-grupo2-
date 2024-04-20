@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS productos (
 -- Insert de registros de ejemplo en la tabla de productos
 INSERT INTO productos (nombre, descripcion, nombre_archivo_imagen, id_usuario) VALUES
 ('Absolut Raspberry', 'Vibrante expresión de vodka infundido con el dulce y ácido sabor de las frambuesas maduras. Su aroma fresco y afrutado anticipa una experiencia gustativa suave y equilibrada, perfecta para cócteles refrescantes o disfrutarlo solo.', 'absolutRasperri.jpg', 1),
-('Grey Goose', 'vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.', 'gresGoose.png', 1),
+('Grey Goose', 'Vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.', 'gresGoose.png', 1),
 ('Smirnoff', 'Es reconocido por su calidad y versatilidad. Destilado tres veces y filtrado diez, ofrece una pureza excepcional y un sabor suave', 'smirnoffNaranja.png', 1),
 ('Jagger', 'Icónica bebida espirituosa alemana, cautiva con su distintivo sabor a base de hierbas y especias', 'jagger.png', 1),
 ('Fernet', 'Emblemática bebida italiana, seduce con su inigualable amargor equilibrado por notas herbales y especiadas', 'fernet.jpg', 1),
