@@ -261,7 +261,7 @@ const data = {
 
         if (filtrado.length > 0) {
             return filtrado
-        } else return null
+        } else return "No contamos con este producto"
     }
 };
 
