@@ -146,6 +146,7 @@ hr {
   flex-wrap: wrap;
   align-items: center;
   margin-left: 0%;
+  justify-content: flex-end;
 }
 
 .logout{
@@ -195,6 +196,9 @@ label {
 }
 .titulosHeader {
   font-weight: bold;
+}
+
+.tamaños {
 }
 /*====== Banner ======*/
 .banner {

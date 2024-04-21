@@ -82,7 +82,7 @@ INSERT INTO comentarios (id_producto, id_usuario, texto) VALUES
 (4, 3, 'Tardó mucho en llegar'),
 (5, 1, 'Horrible'),
 (5, 2, 'La mejor bebida que probé en mi vida!!!!'),
-(5, 3, 'Podrían poner envío gratis!'),
+(5, 3, 'Podrían poner más ofertas!'),
 (6, 1, 'Venden por mayor?'),
 (6, 2, 'Tienen más variedad?'),
 (6, 3, 'Una calidad única'),
