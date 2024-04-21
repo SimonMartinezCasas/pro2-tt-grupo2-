@@ -32,6 +32,24 @@
 				<h2 class="productsTitle">Resultados de búsqueda</h2>
 			</div>
 			<!-- Show the "ultimos" products.. -->
+			<% if (resultado.length > 0) { %>
+				<div class="products">
+					<section class="productBox">
+						<a href="/products">
+							<figure class="productBoxImage">
+								<img src="<%=resultado[0].imagenDelProducto%>" alt="absolut Raspberry">
+							</figure>
+							<article class="productBoxData">
+								<h2><%= resultado[0].nombreDelProducto %></h2>
+								<p><%= resultado[0].descripcion %></p>
+								<p>Comentarios: <%=resultado[0].comentarios.length%></p>
+							</article>
+						</a>
+					</section>
+			</div>
+			<% } else { %>
+			<h1> No contamos con ese producto</h1> <% } %>
+			
 			<h2 class="col-12"> 
 			</h2>
 		</div>

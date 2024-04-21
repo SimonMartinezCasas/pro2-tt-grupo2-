@@ -20,12 +20,13 @@ CREATE TABLE IF NOT EXISTS usuarios (
 );
 
 -- Insert de data test a usuarios
-INSERT INTO usuarios (nombre, email, contrasenia) VALUES
-('pepegomez', 'pepegomez@gmail.com', 'vacablanca'),
-('lopez_nacho', 'nacholopez10@gmail.com', 'pajarorojo'),
-('nicorodriguez8', 'nicorodriguez8@gmail.com', '12354'),
-('luis_navas', 'luisnavas@gmail.com', 'recital450'),
-('briangomez', 'briangomez@gmail.com', 'hombrearania');
+INSERT INTO usuarios (nombre, email, contrasenia, dni, fecha, foto) VALUES
+('agustina_gomez_garcia', 'agustinagg@gmail.com', '123456', '46700974','16/05/2005', 'fotoDePerfil.png')
+('pepegomez', 'pepegomez@gmail.com', 'vacablanca', '48273847', '12/10/1969', 'fotoperfil.png'),
+('lopez_nacho', 'nacholopez10@gmail.com', 'pajarorojo', '11/05/1972', 'fotoperfil.png'),
+('nicorodriguez8', 'nicorodriguez8@gmail.com', '12354', '37294380', '11/02/1967', 'fotoperfil.png'),
+('luis_navas', 'luisnavas@gmail.com', 'recital450', '23928493', '23/03/1999', 'fotoperfil.png'),
+('briangomez', 'briangomez@gmail.com', 'hombrearania', '21643653', '24/04/1978');
 
 -- Tabla de productos
 CREATE TABLE IF NOT EXISTS productos (
@@ -43,7 +44,7 @@ CREATE TABLE IF NOT EXISTS productos (
 -- Insert de registros de ejemplo en la tabla de productos
 INSERT INTO productos (nombre, descripcion, nombre_archivo_imagen, id_usuario) VALUES
 ('Absolut Raspberry', 'Vibrante expresión de vodka infundido con el dulce y ácido sabor de las frambuesas maduras. Su aroma fresco y afrutado anticipa una experiencia gustativa suave y equilibrada, perfecta para cócteles refrescantes o disfrutarlo solo.', 'absolutRasperri.jpg', 1),
-('Grey Goose', 'Vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.', 'gresGoose.png', 1),
+('Grey Goose', 'vodka francés de renombre mundial. Destilado meticulosamente con trigo de invierno suave y agua de manantial de Gensac-la-Pallue, ofrece una experiencia excepcionalmente suave y refinada. Con su distintivo sabor limpio y delicado, es el acompañamiento perfecto para cualquier ocasión.', 'gresGoose.png', 1),
 ('Smirnoff', 'Es reconocido por su calidad y versatilidad. Destilado tres veces y filtrado diez, ofrece una pureza excepcional y un sabor suave', 'smirnoffNaranja.png', 1),
 ('Jagger', 'Icónica bebida espirituosa alemana, cautiva con su distintivo sabor a base de hierbas y especias', 'jagger.png', 1),
 ('Fernet', 'Emblemática bebida italiana, seduce con su inigualable amargor equilibrado por notas herbales y especiadas', 'fernet.jpg', 1),

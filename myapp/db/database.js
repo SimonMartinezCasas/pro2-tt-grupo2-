@@ -1,7 +1,7 @@
 const data = {
     usuario: {
         email: "agustinagg@gmail.com",
-        usuario: "Agustina Gomez Garcia",
+        usuario: "Agustina_gomez_garcia",
         password: "123456",
         fechaDeNacimiento: "16/05/2005",
         documento: "46700974",
@@ -10,7 +10,7 @@ const data = {
     productos: [
         {
             imagenDelProducto: "/images/products/absolutRasperri.jpg",
-            nombreDelProducto: " Absolut Raspberry ",
+            nombreDelProducto: "Absolut Raspberry",
             descripcion: "Vibrante expresión de vodka infundido con el dulce y ácido sabor de las frambuesas maduras. Su aroma fresco y afrutado anticipa una experiencia gustativa suave y equilibrada, perfecta para cócteles refrescantes o disfrutarlo solo.",
 
             comentarios: [
@@ -248,7 +248,21 @@ const data = {
             ]
         },
         // Otros productos
-    ]
+    ],
+    busqueda: function (productoEnviado) {
+        let filtrado = [];
+        
+        for (let i = 0; i < this.productos.length; i++) {
+            if (productoEnviado == this.productos[i].nombreDelProducto) {
+                filtrado.push(this.productos[i])
+            }
+            
+        }
+
+        if (filtrado.length > 0) {
+            return filtrado
+        } else return null
+    }
 };
 
 module.exports = data;
