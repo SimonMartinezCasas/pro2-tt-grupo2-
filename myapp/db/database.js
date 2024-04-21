@@ -10,7 +10,7 @@ const data = {
     productos: [
         {
             imagenDelProducto: "/images/products/absolutRasperri.jpg",
-            nombreDelProducto: " Absolut Raspberry ",
+            nombreDelProducto: "Absolut Raspberry",
             descripcion: "Vibrante expresión de vodka infundido con el dulce y ácido sabor de las frambuesas maduras. Su aroma fresco y afrutado anticipa una experiencia gustativa suave y equilibrada, perfecta para cócteles refrescantes o disfrutarlo solo.",
             // Otros datos del producto 1
 
@@ -159,7 +159,21 @@ const data = {
             ]
         },
         // Otros productos
-    ]
+    ],
+    busqueda: function (productoEnviado) {
+        let filtrado = [];
+        
+        for (let i = 0; i < this.productos.length; i++) {
+            if (productoEnviado == this.productos[i].nombreDelProducto) {
+                filtrado.push(this.productos[i])
+            }
+            
+        }
+
+        if (filtrado.length > 0) {
+            return filtrado
+        } else return "No contamos con este producto"
+    }
 };
 
 module.exports = data;

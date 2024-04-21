@@ -5,6 +5,6 @@ const productsController = require ("../controllers/productsController")
 /* GET home page. */
 router.get('/', productsController.product ); //  se va a relacionar con product.ejs 
 router.get('/add', productsController.add ); //  se va a relacionar con productAdd.ejs 
-router.get ('/results', productsController.results ); //  se va a relacionar con searchResults.ejs 
+router.get ('/results/:productoEnviado?', productsController.results ); //  se va a relacionar con searchResults.ejs 
   
   module.exports = router; 

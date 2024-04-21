@@ -8,7 +8,8 @@ const productsController = {
         return res.render ("productAdd", {usuario: db.usuario})
     },
     results: function (req, res) {
-        return res.render ("searchResults" /* variable de db */)
+        let productoEnviado = req.params.productoEnviado
+        return res.render ("searchResults", {resultado: db.busqueda(productoEnviado)})
     }
 }
 
