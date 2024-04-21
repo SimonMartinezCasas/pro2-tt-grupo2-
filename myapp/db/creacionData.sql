@@ -52,7 +52,7 @@ INSERT INTO productos (nombre, descripcion, nombre_archivo_imagen, id_usuario) V
 ('Campari', 'Aperitivo italiano icónico, cautiva con su distintivo sabor amargo y refrescante.', 'campari.jpg', 1),
 ('Bacardi', 'Ron legendario de Cuba, destaca por su suavidad y versatilidad. Elaborado con la mezcla perfecta de melaza y agua pura, ofrece un sabor equilibrado con notas sutiles de vainilla y especias.', 'bacardi.png', 1),
 ('Tanqueray Gin Tonic', 'Emblema del gin premium, deslumbra con su equilibrio entre sabores botánicos y cítricos.', 'gin.png', 1),
-('Cosecha Tardía Vino Blanco', 'Elixir de dulzura y refinamiento, se distingue por su proceso de cosecha tardía, que concentra los azúcares naturales de las uvas.', 'vinito.webp', 1);
+('Cosecha Tardía Vino', 'Elixir de dulzura y refinamiento, se distingue por su proceso de cosecha tardía, que concentra los azúcares naturales de las uvas.', 'vinito.webp', 1);
 
 -- Tabla de comentarios
 CREATE TABLE IF NOT EXISTS comentarios (

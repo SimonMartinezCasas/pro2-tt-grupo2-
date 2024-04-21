@@ -221,11 +221,12 @@ label {
 }
 
 .productBox {
-  background-color: #ffffff;
   border-radius: 5px;
   overflow: hidden;
   transition: 300ms;
   margin: 20px 0;
+  margin-left: 10px;
+  width: 225px;
 }
 
 .productBox a {
@@ -305,7 +306,12 @@ label {
   box-shadow: 0 0 5px var(--green);
 }
 
-
+.products {
+ display: flex;
+ flex-direction: row;
+ margin-left: 20px;
+ margin-right: 20px;
+}
 /*====== Footer ======*/
 .mainFooter {
   background-color: #ebebeb;

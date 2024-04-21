@@ -225,7 +225,7 @@ const data = {
         },
         {
             imagenDelProducto: "/images/products/vinito.webp",
-            nombreDelProducto: "Cosecha Tardia Vino Blanco",
+            nombreDelProducto: "Cosecha Tardia Vino",
             descripcion: "Elixir de dulzura y refinamiento, se distingue por su proceso de cosecha tardía, que concentra los azúcares naturales de las uvas.",
             
             comentarios: [
