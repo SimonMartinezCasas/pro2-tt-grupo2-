@@ -1,7 +1,7 @@
 const data = {
     usuario: {
         email: "agustinagg@gmail.com",
-        usuario: "Agustina Gomez Garcia",
+        usuario: "Agustina_gomez_garcia",
         password: "123456",
         fechaDeNacimiento: "16/05/2005",
         documento: "46700974",
