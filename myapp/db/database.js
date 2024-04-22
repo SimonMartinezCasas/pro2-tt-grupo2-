@@ -40,7 +40,7 @@ const data = {
         },
         {
             imagenDelProducto: "/images/products/smirnoffNaranja.png",
-            nombreDelProducto: "Smirnoff ",
+            nombreDelProducto: "Smirnoff",
             descripcion: "Es reconocido por su calidad y versatilidad. Destilado tres veces y filtrado diez, ofrece una pureza excepcional y un sabor suave",
             // Otros datos del producto 1
             
