@@ -43,7 +43,7 @@
 					<section class="productBox">
 						<a href="/products">
 							<figure class="productBoxImage">
-								<img src=" <%=data[i].imagenDelProducto%>" alt="absolut Raspberry">
+								<img class="tamaños" src=" <%=data[i].imagenDelProducto%>" alt="absolut Raspberry">
 							</figure>
 							<article class="productBoxData">
 								<h2><%= data[i].nombreDelProducto %></h2>
@@ -65,7 +65,7 @@
 				<h2 class="productsTitle">Más comentados</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
-			<div class="col-12 col-sm-6 col-lg-3">
+			<div class=" products ">
 				<% for (let i = 5; i < data.length; i++) {  %>
 					<section class="productBox">
 						<a href="/products">

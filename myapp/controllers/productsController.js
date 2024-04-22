@@ -3,7 +3,7 @@ const db = require ("../db/database")
 
 const productsController = {
     product: function (req, res) {
-        return res.render ("product" /* variable de db */)
+        return res.render ("product", {productos: db.productos })
     },
     add: function (req, res) {
         return res.render ("productAdd", {usuario: db.usuario})
