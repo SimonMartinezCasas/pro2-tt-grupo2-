@@ -9,8 +9,7 @@ const productsController = {
         return res.render ("productAdd", {usuario: db.usuario})
     },
     results: function (req, res) {
-        let producto = req.query.search
-        return res.render ("searchResults", {resultado: db.busqueda(producto)})
+        return res.render ("searchResults", {resultado: db.productos})
     }
 }
 

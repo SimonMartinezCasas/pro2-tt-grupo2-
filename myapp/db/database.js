@@ -249,20 +249,7 @@ const data = {
         },
         // Otros productos ..
     ],
-    busqueda: function (productoEnviado) {
-        let filtrado = [];
-        
-        for (let i = 0; i < this.productos.length; i++) {
-            if (productoEnviado == this.productos[i].nombreDelProducto) {
-                filtrado.push(this.productos[i])
-            }
-            
-        }
 
-        if (filtrado.length > 0) {
-            return filtrado
-        } else return "No contamos con este producto"
-    }
 };
 
 module.exports = data;
