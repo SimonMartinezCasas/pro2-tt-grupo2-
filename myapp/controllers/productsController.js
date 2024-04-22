@@ -9,12 +9,8 @@ const productsController = {
         return res.render ("productAdd", {usuario: db.usuario})
     },
     results: function (req, res) {
-        let {search} = req.query
-        let resultado = db.busqueda(search)
-        console.log(resultado);
-        console.log({search})
-        console.log(db.busqueda(search))
-        return res.render ("searchResults", {resultado: db.busqueda(search)})
+        let producto = req.query.search
+        return res.render ("searchResults", {resultado: db.busqueda(producto)})
     }
 }
 
