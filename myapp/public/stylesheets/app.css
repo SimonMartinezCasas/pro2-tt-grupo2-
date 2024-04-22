@@ -7,7 +7,7 @@
 :root {
   --blue: #f18a14;
   --dark-blue: #f18a14;
-  --light-blue: #ce893b;
+  --light-blue: #453bce;
   --balck: #000000;
   --light-gray: #d3d2d2;
   --green: #39b54a;
@@ -198,8 +198,6 @@ label {
   font-weight: bold;
 }
 
-.tamaños {
-}
 /*====== Banner ======*/
 .banner {
   background-repeat: no-repeat;
