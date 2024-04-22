@@ -247,7 +247,7 @@ const data = {
                 },
             ]
         },
-        // Otros productos
+        // Otros productos ..
     ],
     busqueda: function (productoEnviado) {
         let filtrado = [];
