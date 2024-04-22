@@ -23,10 +23,10 @@ CREATE TABLE IF NOT EXISTS usuarios (
 INSERT INTO usuarios (nombre, email, contrasenia, dni, fecha, foto) VALUES
 ('agustina_gomez_garcia', 'agustinagg@gmail.com', '123456', '46700974','16/05/2005', 'fotoDePerfil.png')
 ('pepegomez', 'pepegomez@gmail.com', 'vacablanca', '48273847', '12/10/1969', 'fotoperfil.png'),
-('lopez_nacho', 'nacholopez10@gmail.com', 'pajarorojo', '11/05/1972', 'fotoperfil.png'),
+('lopez_nacho', 'nacholopez10@gmail.com', 'pajarorojo', '32450284' '11/05/1972', 'fotoperfil.png'),
 ('nicorodriguez8', 'nicorodriguez8@gmail.com', '12354', '37294380', '11/02/1967', 'fotoperfil.png'),
 ('luis_navas', 'luisnavas@gmail.com', 'recital450', '23928493', '23/03/1999', 'fotoperfil.png'),
-('briangomez', 'briangomez@gmail.com', 'hombrearania', '21643653', '24/04/1978');
+('briangomez', 'briangomez@gmail.com', 'hombrearania', '21643653', '24/04/1978', 'fotoperfil.png');
 
 -- Tabla de productos
 CREATE TABLE IF NOT EXISTS productos (
