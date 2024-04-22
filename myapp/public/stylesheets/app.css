@@ -326,7 +326,7 @@ label {
 }
 
 .footerData i {
-  color: var(--light-blue);
+  color: var(--dark-blue);
   font-size: 3.5em;
 }
 
